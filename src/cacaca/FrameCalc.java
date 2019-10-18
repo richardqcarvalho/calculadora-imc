@@ -37,14 +37,14 @@ public class FrameCalc extends JFrame {
 		
 		btnCalcular.addActionListener((ev) -> {
 			if (altura.getText().equals("0")) {
-				JOptionPane.showMessageDialog(null, "Você não existe");
+				JOptionPane.showMessageDialog(null, "Vocï¿½ nï¿½o existe");
 		    } else if (massa.getText().equals("0")) {
-		    	JOptionPane.showMessageDialog(null, "Coma uma maçã");
+		    	JOptionPane.showMessageDialog(null, "Coma uma maï¿½ï¿½");
 		    } else {
 				float massaFloat = Float.parseFloat(massa.getText());
 				float alturaFloat = (Float.parseFloat(altura.getText())/100);
 				float imcCalculado = massaFloat / (alturaFloat * alturaFloat);
-				JOptionPane.showMessageDialog(null, "Seu índice de massa corporal é " + imcCalculado);
+				JOptionPane.showMessageDialog(null, "Seu ï¿½ndice de massa corporal ï¿½ " + imcCalculado);
 			}
 		});
 		btnFechar.addActionListener((ev) -> System.exit(0)); 
