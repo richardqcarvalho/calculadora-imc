@@ -1,6 +1,6 @@
 # Calculadora de IMC feita em Java
 
-Este pequeno projeto foi feito como atividade para a cadeira de Paradigmas de Programação, na Universidade Federal do Maranhão, ministrada pelo professor [Sérgio Souza](https://github.com/profsergiocosta).
+Este pequeno projeto foi feito como atividade para a cadeira de Paradigmas de Programação, na Universidade Federal do Maranhão, ministrada pelo professor [Sérgio Souza Costa](https://github.com/profsergiocosta).
 
 # Linguagem utilizada
 
